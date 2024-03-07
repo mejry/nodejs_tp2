@@ -1,5 +1,12 @@
 const express= require("express")
 const router=express.Router()
+const user=require('../models/user')
+
+
+
+
+
+
 
 const voiture=[{id:1,name:"clio"},{id:2,name:"megane"},{id:3,name:"range"}]
 
